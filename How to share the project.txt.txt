@@ -1,0 +1,6 @@
+How to get a shareable link (Drag & Drop method):
+Open your web browser and go to app.netlify.com/drop.
+Locate your project folder on your desktop: Monserrato website.
+Drag and drop that entire folder right onto the web page where it says "Drag and drop your site folder here".
+Wait a few seconds. Netlify will upload your files and give you a unique URL (like https://calm-seahorse-123456.netlify.app).
+Copy that link and send it to anyone!

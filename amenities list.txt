@@ -1,0 +1,20 @@
+Amenities:
+TV
+Wi-Fi
+Air conditioning
+Elevator
+Washing machine
+Bed linen and towels
+Kitchen:
+Stove
+Oven
+Microwave
+Kettle
+Refrigerator
+Coffee machine
+Basic essentials (oil, salt, coffee, etc.)
+Bathroom:
+Hair dryer
+Shampoo
+Shower gel
+Toilet paper
