@@ -4,47 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monserrato suites</title>
+    <meta name="theme-color" content="#FFFCF7">
+
+    <!-- Primary SEO -->
+    <title>Monserrato Suites | Vacation Apartments in Rome Historic Center</title>
+    <meta name="description"
+        content="Two charming vacation apartments on Via di Monserrato, in the heart of Rome. Steps from Campo de' Fiori, Piazza Navona and the Pantheon. Book your Roman stay.">
+    <meta name="keywords"
+        content="vacation apartment Rome, Via di Monserrato, Centro Storico Roma, holiday rental Rome, Campo de' Fiori apartment, Rome historic center accommodation, Monserrato suites">
+    <meta name="author" content="Monserrato Suites">
+    <meta name="robots" content="index, follow">
+
+    <!-- Geo tags -->
+    <meta name="geo.region" content="IT-RM">
+    <meta name="geo.placename" content="Rome, Centro Storico, Via di Monserrato">
+    <meta name="geo.position" content="41.895493;12.469094">
+    <meta name="ICBM" content="41.895493, 12.469094">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Monserrato Suites | Vacation Apartments in Rome Historic Center">
+    <meta property="og:description"
+        content="Two charming vacation apartments on Via di Monserrato, in the heart of Rome. Steps from Campo de' Fiori, Piazza Navona and the Pantheon.">
+    <meta property="og:url" content="https://www.monserratosuites.com/">
+    <meta property="og:image" content="assets/hero_image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Monserrato Suites">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Monserrato Suites | Vacation Apartments in Rome Historic Center">
+    <meta name="twitter:description"
+        content="Two charming vacation apartments on Via di Monserrato, in the heart of Rome.">
+    <meta name="twitter:image" content="assets/hero_image.jpg">
+
+    <link rel="canonical" href="https://www.monserratosuites.com/">
+
+    <!-- Stylesheet & fonts -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Monserrato Suites",
+      "description": "Two charming vacation apartments on Via di Monserrato in the historic center of Rome, near Campo de' Fiori and Piazza Navona.",
+      "url": "https://www.monserratosuites.com/",
+      "image": "assets/hero_image.jpg",
+      "telephone": "+39-3934659160",
+      "email": "monserratoapartments@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via di Monserrato",
+        "addressLocality": "Rome",
+        "addressRegion": "RM",
+        "postalCode": "00186",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.895493,
+        "longitude": 12.469094
+      }
+    }
+    </script>
 </head>
 
 <body class="landing-body">
 
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <div class="landing-container">
-        <!-- Floating Header -->
-        <header class="landing-header">
-            <h1>Monserrato suites</h1>
-            <p>In the center of Rome</p>
+        <!-- Header -->
+        <header class="landing-header" role="banner">
+            <h1>Monserrato Suites</h1>
+            <p>In the heart of Rome</p>
         </header>
 
-        <div class="split-screen">
+        <!-- Main content: choose a residence -->
+        <main id="main-content" class="split-screen" role="main" aria-label="Choose a residence">
+
             <!-- Residence 39 (Left) -->
-            <a href="residence39.html" class="split-pane pane-left">
-                <div class="pane-bg" style="background-image: url('assets/39/39_livingroom_1.jpg');"></div>
+            <a href="residence39.html"
+                class="split-pane pane-left"
+                aria-label="Discover Residenza Cenci, Via di Monserrato 39, Rome">
+                <div class="pane-bg" style="background-image: url('assets/39/39_livingroom_1.jpg');"
+                    role="img" aria-label="Living room of Residenza Cenci, vacation apartment in Rome historic center"></div>
                 <div class="pane-content">
                     <h2>Residenza Cenci</h2>
-                    <span class="btn-line">Explore</span>
+                    <span class="btn-line">Explore Residenza Cenci</span>
                 </div>
                 <div class="pane-overlay"></div>
             </a>
 
             <!-- Residence 34 (Right) -->
-            <a href="residence34.html" class="split-pane pane-right">
-                <div class="pane-bg" style="background-image: url('assets/34/34_livingroom_1.jpg');"></div>
+            <a href="residence34.html"
+                class="split-pane pane-right"
+                aria-label="Discover Residenza Antonelli, Via di Monserrato 34, Rome">
+                <div class="pane-bg" style="background-image: url('assets/34/34_livingroom_1.jpg');"
+                    role="img" aria-label="Living room of Residenza Antonelli, vacation apartment in Rome historic center"></div>
                 <div class="pane-content">
                     <h2>Residenza Antonelli</h2>
-                    <span class="btn-line">Explore</span>
+                    <span class="btn-line">Explore Residenza Antonelli</span>
                 </div>
                 <div class="pane-overlay"></div>
             </a>
-        </div>
+
+        </main>
     </div>
 
+    <script src="script.js" defer></script>
 </body>
 
 </html>

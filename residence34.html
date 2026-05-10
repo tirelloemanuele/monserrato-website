@@ -4,21 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Residenza Antonelli | Rome Historic Center</title>
+    <meta name="theme-color" content="#FFFCF7">
+
+    <!-- Primary SEO -->
+    <title>Residenza Antonelli | Rome Apartment in Via di Monserrato</title>
+    <meta name="description"
+        content="Residenza Antonelli: a 3-bedroom vacation apartment on Via di Monserrato, central Rome. Two bathrooms, balcony and full kitchen, steps from Campo de' Fiori.">
+    <meta name="keywords"
+        content="Residenza Antonelli, Via di Monserrato 34, vacation apartment Rome, 3 bedroom apartment Rome, holiday rental Centro Storico, apartment near Campo de' Fiori, Rome historic center accommodation">
+    <meta name="author" content="Monserrato Suites">
+    <meta name="robots" content="index, follow">
+
+    <!-- Geo tags -->
+    <meta name="geo.region" content="IT-RM">
+    <meta name="geo.placename" content="Rome, Centro Storico, Via di Monserrato 34">
+    <meta name="geo.position" content="41.895493;12.469094">
+    <meta name="ICBM" content="41.895493, 12.469094">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Residenza Antonelli | Rome Apartment in Via di Monserrato">
+    <meta property="og:description"
+        content="Three-bedroom vacation apartment on Via di Monserrato in central Rome, steps from Campo de' Fiori, Piazza Navona and the Pantheon.">
+    <meta property="og:url" content="https://www.monserratosuites.com/residence34.html">
+    <meta property="og:image" content="assets/34/34_livingroom_1.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Monserrato Suites">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Residenza Antonelli | Rome Apartment in Via di Monserrato">
+    <meta name="twitter:description"
+        content="Three-bedroom vacation apartment on Via di Monserrato, central Rome. Steps from Campo de' Fiori and the Pantheon.">
+    <meta name="twitter:image" content="assets/34/34_livingroom_1.jpg">
+
+    <link rel="canonical" href="https://www.monserratosuites.com/residence34.html">
+
     <link rel="stylesheet" href="style.css">
+
     <!-- Google Fonts for premium typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "@id": "https://www.monserratosuites.com/residence34.html",
+      "name": "Residenza Antonelli",
+      "description": "Three-bedroom vacation apartment on Via di Monserrato 34, in the heart of Rome's historic center. Two bathrooms, fully equipped kitchen, balcony, Wi-Fi and air conditioning.",
+      "url": "https://www.monserratosuites.com/residence34.html",
+      "image": [
+        "assets/34/34_livingroom_1.jpg",
+        "assets/34/34_kitchen_1.jpg",
+        "assets/34/34_room_red_1.jpg",
+        "assets/34/34_external_1.jpg"
+      ],
+      "telephone": "+39-3934659160",
+      "email": "monserratoapartments@gmail.com",
+      "numberOfRooms": 3,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via di Monserrato 34",
+        "addressLocality": "Rome",
+        "addressRegion": "RM",
+        "postalCode": "00186",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.895493,
+        "longitude": 12.469094
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Air Conditioning", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Smart TV", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Elevator", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Washing Machine", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Linens & Towels", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Balcony", "value": true }
+      ]
+    }
+    </script>
 </head>
 
 <body>
 
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <!-- Header / Navigation -->
-    <nav class="navbar">
-        <a href="index.html" class="logo">Monserrato Apartments</a>
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="logo" aria-label="Monserrato Suites homepage">Monserrato Apartments</a>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="#details">The Apartment</a></li>
@@ -27,333 +108,461 @@
             <li><a href="#availability">Availability</a></li>
             <li><a href="#contact" class="btn-primary">Book Now</a></li>
         </ul>
-        <div class="hamburger">
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </button>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="home" class="hero" style="background-image: url('assets/34/34_livingroom_1.jpg');">
-        <div class="hero-content">
-            <h1>Residenza Antonelli</h1>
-            <p>Your perfect getaway in Rome.</p>
-            <a href="#details" class="btn-secondary">Explore the Apartment</a>
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <header id="home" class="hero" style="background-image: url('assets/34/34_livingroom_1.jpg');"
+            role="banner" aria-label="Residenza Antonelli, vacation apartment in Rome historic center">
+            <div class="hero-content">
+                <h1>Residenza Antonelli</h1>
+                <p>Your perfect three-bedroom getaway on Via di Monserrato.</p>
+                <a href="#details" class="btn-secondary">Explore the Apartment</a>
+            </div>
+        </header>
+
+        <!-- Details/About Section -->
+        <section id="details" class="section" aria-labelledby="details-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="details-heading">The Apartment</h2>
+                    <p>Designed for comfort, styled for living.</p>
+                </div>
+
+                <!-- 1. Room Counts -->
+                <div class="rooms-grid">
+                    <div class="room-box">
+                        <img src="https://api.iconify.design/ph/bed-light.svg?color=%23554e44"
+                            alt="Bedroom icon" class="room-icon" loading="lazy" width="40" height="40">
+                        <span class="room-count">3 Bedrooms</span>
+                    </div>
+                    <div class="room-box">
+                        <img src="https://api.iconify.design/ph/armchair-light.svg?color=%23554e44"
+                            alt="Living room icon" class="room-icon" loading="lazy" width="40" height="40">
+                        <span class="room-count">1 Living Room</span>
+                    </div>
+                    <div class="room-box">
+                        <img src="https://api.iconify.design/ph/shower-light.svg?color=%23554e44"
+                            alt="Bathroom icon" class="room-icon" loading="lazy" width="40" height="40">
+                        <span class="room-count">2 Bathrooms</span>
+                    </div>
+                    <div class="room-box">
+                        <img src="https://api.iconify.design/ph/cooking-pot-light.svg?color=%23554e44"
+                            alt="Kitchen icon" class="room-icon" loading="lazy" width="40" height="40">
+                        <span class="room-count">1 Kitchen</span>
+                    </div>
+                </div>
+
+                <!-- 2. Description Box -->
+                <article class="description-box">
+                    <h3>About the Space</h3>
+                    <p>
+                        Nestled in the heart of Rome, this elegant apartment offers the perfect blend of historical
+                        charm and modern comfort. Located just steps away from iconic sites such as Piazza Navona, the
+                        Pantheon, and Campo de' Fiori, you'll find yourself immersed in the rich culture and vibrant
+                        energy of the Eternal City.
+                    </p>
+
+                    <p>
+                        The apartment features beautiful decor with warm and inviting spaces. With three bedrooms, each
+                        with distinct character, and a spacious living room with a comfortable sofa, this apartment
+                        provides ample space for families or groups. The fully equipped kitchen includes a refrigerator,
+                        stove, and oven for preparing meals during your stay.
+                    </p>
+
+                    <p>
+                        The two modern bathrooms are clean and well-maintained, with all necessary amenities including
+                        glass-enclosed showers, toilets, bidets, and sinks. Towels and bed linens are included for your
+                        convenience. This is a non-smoking accommodation, perfect for a comfortable stay in the heart of
+                        Rome.
+                    </p>
+                </article>
+
+                <!-- 3. Amenities Box -->
+                <article class="amenities-box">
+                    <h3>Amenities</h3>
+
+                    <!-- Top Tier: Highlights -->
+                    <div class="amenities-highlights">
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/wifi-high-light.svg?color=%23F0A500"
+                                alt="High-speed Wi-Fi icon" loading="lazy" width="32" height="32">
+                            <span>High-Speed Wi-Fi</span>
+                        </div>
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/snowflake-light.svg?color=%23F0A500"
+                                alt="Air conditioning icon" loading="lazy" width="32" height="32">
+                            <span>Air Conditioning</span>
+                        </div>
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/television-simple-light.svg?color=%23F0A500"
+                                alt="Smart TV icon" loading="lazy" width="32" height="32">
+                            <span>Smart TV</span>
+                        </div>
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/elevator-light.svg?color=%23F0A500"
+                                alt="Elevator icon" loading="lazy" width="32" height="32">
+                            <span>Elevator</span>
+                        </div>
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/waves-light.svg?color=%23F0A500"
+                                alt="Washing machine icon" loading="lazy" width="32" height="32">
+                            <span>Washing Machine</span>
+                        </div>
+                        <div class="amenity-item">
+                            <img src="https://api.iconify.design/ph/towel-light.svg?color=%23F0A500"
+                                alt="Linens and towels icon" loading="lazy" width="32" height="32">
+                            <span>Linens &amp; Towels</span>
+                        </div>
+                    </div>
+
+                    <hr class="amenities-divider">
+
+                    <!-- Second Tier: Detailed Lists -->
+                    <div class="amenities-details-grid">
+                        <div class="amenities-category">
+                            <h4>Kitchen</h4>
+                            <ul>
+                                <li>Stove, Oven &amp; Microwave</li>
+                                <li>Refrigerator &amp; Kettle</li>
+                                <li>Coffee Machine</li>
+                                <li>Basic Essentials (Oil, Salt, Coffee)</li>
+                            </ul>
+                        </div>
+                        <div class="amenities-category">
+                            <h4>Bathroom</h4>
+                            <ul>
+                                <li>Hair Dryer</li>
+                                <li>Shampoo &amp; Shower Gel</li>
+                                <li>Toilet Paper</li>
+                            </ul>
+                        </div>
+                        <div class="amenities-category">
+                            <h4>Extras</h4>
+                            <ul>
+                                <li>Cradle</li>
+                                <li>Iron &amp; Ironing Board</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section alt-bg" aria-labelledby="gallery-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="gallery-heading">Gallery</h2>
+                    <p>Feel at home in every corner.</p>
+                </div>
+
+                <div class="gallery-filters" role="tablist" aria-label="Filter gallery by room">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="living">Living Room</button>
+                    <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+                    <button class="filter-btn" data-filter="bedroom-1">Bedroom 1</button>
+                    <button class="filter-btn" data-filter="bedroom-2">Bedroom 2</button>
+                    <button class="filter-btn" data-filter="bedroom-3">Bedroom 3</button>
+                    <button class="filter-btn" data-filter="bathroom-1">Bathroom 1</button>
+                    <button class="filter-btn" data-filter="bathroom-2">Bathroom 2</button>
+                    <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <!-- Living Room -->
+                    <div class="gallery-item" data-category="living">
+                        <img src="assets/34/34_livingroom_1.jpg"
+                            alt="Bright living room with sofa in Residenza Antonelli vacation apartment, Via di Monserrato Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="living">
+                        <img src="assets/34/34_livingroom_2.jpg"
+                            alt="Cozy living room corner with elegant decor in Residenza Antonelli, central Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="living">
+                        <img src="assets/34/34_livingroom_3.jpg"
+                            alt="Living room view with classic Roman style in Residenza Antonelli holiday rental"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_1.jpg"
+                            alt="Fully equipped kitchen of Residenza Antonelli apartment near Campo de' Fiori, Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_2.jpg"
+                            alt="Modern kitchen with cooking essentials in Rome historic center vacation rental"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_3.jpg"
+                            alt="Kitchen detail and breakfast space in Residenza Antonelli, Via di Monserrato apartment"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_4.jpg"
+                            alt="Kitchen appliances in Residenza Antonelli vacation apartment in central Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_5.jpg"
+                            alt="Bright cooking area in Residenza Antonelli holiday flat in Rome historic center"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="kitchen">
+                        <img src="assets/34/34_kitchen_6.jpg"
+                            alt="Kitchen counter and dining nook of Rome apartment near Piazza Navona"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Bedroom 1 (Red) -->
+                    <div class="gallery-item" data-category="bedroom-1">
+                        <img src="assets/34/34_room_red_1.jpg"
+                            alt="Red themed bedroom with double bed in Residenza Antonelli, Rome apartment"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-1">
+                        <img src="assets/34/34_room_red_2.jpg"
+                            alt="Elegant red bedroom interior in Via di Monserrato vacation rental, Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-1">
+                        <img src="assets/34/34_room_red_3.jpg"
+                            alt="Spacious red bedroom with classic decor at Residenza Antonelli apartment in Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-1">
+                        <img src="assets/34/34_room_red_4.jpg"
+                            alt="Red bedroom detail with bedside table at Rome historic center holiday flat"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-1">
+                        <img src="assets/34/34_room_red_5.jpg"
+                            alt="Comfortable red bedroom in Residenza Antonelli apartment near Campo de' Fiori"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Bedroom 2 (Blue) -->
+                    <div class="gallery-item" data-category="bedroom-2">
+                        <img src="assets/34/34_room_blue_1.jpg"
+                            alt="Blue bedroom with double bed at Residenza Antonelli, Rome vacation apartment"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-2">
+                        <img src="assets/34/34_room_blue_2.jpg"
+                            alt="Cozy blue bedroom corner in Via di Monserrato apartment, central Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-2">
+                        <img src="assets/34/34_room_blue_3.jpg"
+                            alt="Bright blue bedroom interior at Residenza Antonelli holiday rental in Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Bedroom 3 (Grey) -->
+                    <div class="gallery-item" data-category="bedroom-3">
+                        <img src="assets/34/34_room_grey_1.jpg"
+                            alt="Modern grey bedroom in Residenza Antonelli apartment in Rome historic center"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bedroom-3">
+                        <img src="assets/34/34_room_grey_2.jpg"
+                            alt="Elegant grey bedroom detail at Via di Monserrato vacation rental, Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Bathroom 1 (Small) -->
+                    <div class="gallery-item" data-category="bathroom-1">
+                        <img src="assets/34/34_bathroom_small_1.jpg"
+                            alt="Second bathroom with shower at Residenza Antonelli apartment in Rome historic center"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bathroom-1">
+                        <img src="assets/34/34_bathroom_small_2.jpg"
+                            alt="Compact second bathroom in Via di Monserrato vacation rental, Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Bathroom 2 (Big) -->
+                    <div class="gallery-item" data-category="bathroom-2">
+                        <img src="assets/34/34_bathroom_big_1.jpg"
+                            alt="Spacious main bathroom with shower at Residenza Antonelli apartment in Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="bathroom-2">
+                        <img src="assets/34/34_bathroom_big_2.jpg"
+                            alt="Bright main bathroom interior in Via di Monserrato vacation flat, central Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                    <!-- Outdoor -->
+                    <div class="gallery-item" data-category="outdoor">
+                        <img src="assets/34/34_external_1.jpg"
+                            alt="External view of Residenza Antonelli building on Via di Monserrato, Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="outdoor">
+                        <img src="assets/34/34_balcony_1.jpg"
+                            alt="Sunny balcony with view at Residenza Antonelli apartment in central Rome"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="outdoor">
+                        <img src="assets/34/34_balcony_2.jpg"
+                            alt="Private balcony detail at Rome holiday rental on Via di Monserrato"
+                            loading="lazy" width="800" height="600">
+                    </div>
+                    <div class="gallery-item" data-category="outdoor">
+                        <img src="assets/34/34_courtyard_1.jpg"
+                            alt="Charming inner courtyard at Residenza Antonelli building in Rome historic center"
+                            loading="lazy" width="800" height="600">
+                    </div>
+
+                </div>
+
+                <div id="load-more-container" style="text-align: center; margin-top: 2rem;">
+                    <button id="loadMoreBtn" class="btn-secondary">Show More Photos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery viewer">
+            <span class="close-lightbox" role="button" aria-label="Close gallery viewer" tabindex="0">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" alt="Gallery photo of Residenza Antonelli apartment in Rome">
+            <a class="prev" onclick="changeSlide(-1)" role="button" aria-label="Previous photo">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)" role="button" aria-label="Next photo">&#10095;</a>
         </div>
-    </header>
 
-    <!-- Details/About Section -->
-    <section id="details" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>The Apartment</h2>
-                <p>Designed for comfort, styled for living.</p>
-            </div>
-
-            <!-- 1. Room Counts -->
-            <div class="rooms-grid">
-                <div class="room-box">
-                    <img src="https://api.iconify.design/ph/bed-light.svg?color=%23554e44" alt="Bedroom"
-                        class="room-icon">
-                    <span class="room-count">3 Bedrooms</span>
+        <!-- Location Section -->
+        <section id="location" class="section" aria-labelledby="location-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="location-heading">The Location</h2>
+                    <p>In the beating heart of Rome.</p>
                 </div>
-                <div class="room-box">
-                    <img src="https://api.iconify.design/ph/armchair-light.svg?color=%23554e44" alt="Living Room"
-                        class="room-icon">
-                    <span class="room-count">1 Living Room</span>
-                </div>
-                <div class="room-box">
-                    <img src="https://api.iconify.design/ph/shower-light.svg?color=%23554e44" alt="Bathroom"
-                        class="room-icon">
-                    <span class="room-count">2 Bathrooms</span>
-                </div>
-                <div class="room-box">
-                    <img src="https://api.iconify.design/ph/cooking-pot-light.svg?color=%23554e44" alt="Kitchen"
-                        class="room-icon">
-                    <span class="room-count">1 Kitchen</span>
-                </div>
-            </div>
+                <div class="location-grid">
+                    <div class="location-info">
+                        <h3>Via di Monserrato</h3>
+                        <p>Situated on one of Rome's most elegant streets, you are immersed in history. Cobblestone
+                            paths, artisan workshops, and authentic Roman life await right outside your door.</p>
 
-            <!-- 2. Description Box -->
-            <div class="description-box">
-                <h3>About the Space</h3>
-                <p>
-                    Nestled in the heart of Rome, this elegant apartment offers the perfect blend of historical charm
-                    and
-                    modern comfort.
-                    Located just steps away from iconic sites such as Piazza Navona, the Pantheon, and Campo de' Fiori,
-                    you'll find yourself immersed in the rich culture and vibrant energy of the Eternal City.
-                </p>
-
-                <p>
-                    The apartment features beautiful decor with warm and inviting spaces. With three bedrooms, each with distinct character, and a spacious living room with a comfortable sofa, this apartment provides ample space for families or groups. The fully equipped kitchen includes a refrigerator, stove, and oven for preparing meals during your stay.
-                </p>
-
-                <p>
-                    The two modern bathrooms are clean and well-maintained, with all necessary amenities including glass-enclosed showers, toilets, bidets, and sinks. Towels and bed linens are included for your convenience. This is a non-smoking accommodation, perfect for a comfortable stay in the heart of Rome.
-                </p>
-            </div>
-
-            <!-- 3. Amenities Box -->
-            <div class="amenities-box">
-                <h3>Amenities</h3>
-
-                <!-- Top Tier: Highlights -->
-                <div class="amenities-highlights">
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/wifi-high-light.svg?color=%23F0A500" alt="Wifi">
-                        <span>High-Speed Wi-Fi</span>
-                    </div>
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/snowflake-light.svg?color=%23F0A500" alt="AC">
-                        <span>Air Conditioning</span>
-                    </div>
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/television-simple-light.svg?color=%23F0A500" alt="TV">
-                        <span>Smart TV</span>
-                    </div>
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/elevator-light.svg?color=%23F0A500" alt="Elevator">
-                        <span>Elevator</span>
-                    </div>
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/waves-light.svg?color=%23F0A500" alt="Washer">
-                        <span>Washing Machine</span>
-                    </div>
-                    <div class="amenity-item">
-                        <img src="https://api.iconify.design/ph/towel-light.svg?color=%23F0A500" alt="Linens">
-                        <span>Linens & Towels</span>
-                    </div>
-                </div>
-
-                <hr class="amenities-divider">
-
-                <!-- Second Tier: Detailed Lists -->
-                <div class="amenities-details-grid">
-                    <div class="amenities-category">
-                        <h4>Kitchen</h4>
                         <ul>
-                            <li>Stove, Oven & Microwave</li>
-                            <li>Refrigerator & Kettle</li>
-                            <li>Coffee Machine</li>
-                            <li>Basic Essentials (Oil, Salt, Coffee)</li>
+                            <li><strong>Campo de' Fiori:</strong> 2 min walk</li>
+                            <li><strong>Piazza Navona:</strong> 5 min walk</li>
+                            <li><strong>Pantheon:</strong> 10 min walk</li>
+                            <li><strong>Trastevere:</strong> 15 min walk</li>
+                        </ul>
+
+                        <div class="location-map">
+                            <iframe title="Map showing Residenza Antonelli at Via di Monserrato 34, Rome"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.873215917891!2d12.469094075908502!3d41.89549337124233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f604f86d87eeb%3A0xe2a818d6e3fb0e5!2sVia%20di%20Monserrato%2C%2034%2C%2000186%20Roma%20RM!5e0!3m2!1sen!2sit!4v1714500000000!5m2!1sen!2sit"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="location-image"
+                        style="background-image: url('assets/34/34_courtyard_1.jpg');"
+                        role="img"
+                        aria-label="Inner courtyard of Residenza Antonelli on Via di Monserrato, Rome"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Availability Section -->
+        <section id="availability" class="section alt-bg" aria-labelledby="availability-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="availability-heading">Availability</h2>
+                    <p>Check our calendar for open dates.</p>
+                </div>
+                <div class="calendar-wrapper">
+                    <div class="google-calendar-container">
+                        <iframe title="Residenza Antonelli availability calendar"
+                            src="https://calendar.google.com/calendar/embed?src=vi0lo5qk1f1rkcaihup7q6pi52jc6lnp%40import.calendar.google.com&ctz=Europe%2FRome&showTitle=0&showPrint=0&showCalendars=0&showTabs=0"
+                            style="border: 0" frameborder="0" scrolling="no" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Prices and Availability Section -->
+                <article class="description-box" style="margin-top: 3rem; margin-bottom: 0;">
+                    <h3>Prices</h3>
+                    <p>Prices vary depending on the season, availability, and demand for the selected dates. Rates are
+                        dynamically updated throughout the year.</p>
+                    <p>For real-time and accurate pricing, you can check the calendar on Airbnb.</p>
+                    <p>Guests who book directly with us may benefit from a special direct booking discount of around
+                        15%, as well as possible reductions for longer stays or early bookings.</p>
+                    <p style="margin-bottom: 2rem;">If you would like to check availability or receive a quote, feel
+                        free to contact us directly.</p>
+                    <a href="https://airbnb.it/h/monserratosuite" target="_blank" rel="noopener noreferrer"
+                        class="btn-primary">View Residenza Antonelli on Airbnb</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 id="contact-heading">Ready to Stay?</h2>
+                        <p>Contact us directly for the best rates and availability at Residenza Antonelli.</p>
+                        <ul class="contact-list">
+                            <li><strong>Email:</strong>
+                                <a href="mailto:monserratoapartments@gmail.com">monserratoapartments@gmail.com</a>
+                            </li>
+                            <li><strong>Lucia:</strong> <a href="tel:+393921287501">+39 392 128 7501</a></li>
+                            <li><strong>Emanuele:</strong> <a href="tel:+393934659160">+39 393 465 9160</a></li>
+                            <li><strong>Address:</strong> Via di Monserrato 34, 00186 Roma (RM), Italia</li>
                         </ul>
                     </div>
-                    <div class="amenities-category">
-                        <h4>Bathroom</h4>
-                        <ul>
-                            <li>Hair Dryer</li>
-                            <li>Shampoo & Shower Gel</li>
-                            <li>Toilet Paper</li>
-                        </ul>
-                    </div>
-                    <div class="amenities-category">
-                        <h4>Extras</h4>
-                        <ul>
-                            <li>Cradle</li>
-                            <li>Iron & Ironing Board</li>
-                        </ul>
-                    </div>
+                    <form class="contact-form"
+                        action="https://formspree.io/f/xdabpbzn"
+                        method="POST"
+                        aria-label="Booking inquiry form for Residenza Antonelli">
+                        <input type="hidden" name="_subject" value="New booking inquiry — Residenza Antonelli">
+                        <!-- Honeypot field to catch spam bots; real users leave it empty -->
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"
+                            style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+
+                        <label for="contact-name" class="visually-hidden" hidden>Your name</label>
+                        <input id="contact-name" type="text" name="name" placeholder="Your Name"
+                            autocomplete="name" required>
+
+                        <label for="contact-email" class="visually-hidden" hidden>Your email</label>
+                        <input id="contact-email" type="email" name="email" placeholder="Your Email"
+                            autocomplete="email" required>
+
+                        <label for="contact-message" class="visually-hidden" hidden>Message and preferred dates</label>
+                        <textarea id="contact-message" name="message" placeholder="Message / Preferred Dates"
+                            rows="5" required></textarea>
+
+                        <button type="submit" class="btn-primary">Send Booking Inquiry</button>
+                        <p class="form-status" role="status" aria-live="polite"></p>
+                    </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="section alt-bg">
-        <div class="container">
-            <div class="section-header">
-                <h2>Gallery</h2>
-                <p>Feel at home in every corner.</p>
-            </div>
-
-            <div class="gallery-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="living">Living Room</button>
-                <button class="filter-btn" data-filter="kitchen">Kitchen</button>
-                <button class="filter-btn" data-filter="bedroom-1">Bedroom 1</button>
-                <button class="filter-btn" data-filter="bedroom-2">Bedroom 2</button>
-                <button class="filter-btn" data-filter="bedroom-3">Bedroom 3</button>
-                <button class="filter-btn" data-filter="bathroom-1">Bathroom 1</button>
-                <button class="filter-btn" data-filter="bathroom-2">Bathroom 2</button>
-                <button class="filter-btn" data-filter="external">External</button>
-            </div>
-
-            <div class="gallery-grid">
-                <!-- Living Room -->
-                <div class="gallery-item" data-category="living"
-                    style="background-image: url('assets/34/34_livingroom_1.jpg');"></div>
-                <div class="gallery-item" data-category="living"
-                    style="background-image: url('assets/34/34_livingroom_2.jpg');"></div>
-                <div class="gallery-item" data-category="living"
-                    style="background-image: url('assets/34/34_hallway_1.jpg');"></div>
-
-                <!-- Kitchen -->
-                <div class="gallery-item" data-category="kitchen"
-                    style="background-image: url('assets/34/34_kitchen_1.jpg');"></div>
-                <div class="gallery-item" data-category="kitchen"
-                    style="background-image: url('assets/34/34_kitchen_2.jpg');"></div>
-                <div class="gallery-item" data-category="kitchen"
-                    style="background-image: url('assets/34/34_kitchen_3.jpg');"></div>
-
-                <!-- Bedroom 1 (Red) -->
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_1.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_2.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_3.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_4.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_5.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-1"
-                    style="background-image: url('assets/34/34_room_red_6.jpg');"></div>
-
-                <!-- Bedroom 2 (Blue) -->
-                <div class="gallery-item" data-category="bedroom-2"
-                    style="background-image: url('assets/34/34_room_blue_1.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-2"
-                    style="background-image: url('assets/34/34_room_blue_2.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-2"
-                    style="background-image: url('assets/34/34_room_blue_3.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-2"
-                    style="background-image: url('assets/34/34_room_blue_4.jpg');"></div>
-
-                <!-- Bedroom 3 (Grey) -->
-                <div class="gallery-item" data-category="bedroom-3"
-                    style="background-image: url('assets/34/34_room_grey_1.jpg');"></div>
-                <div class="gallery-item" data-category="bedroom-3"
-                    style="background-image: url('assets/34/34_room_grey_2.jpg');"></div>
-
-                <!-- Bathroom 1 -->
-                <div class="gallery-item" data-category="bathroom-1"
-                    style="background-image: url('assets/34/34_bathroo_small_1.jpg');"></div>
-                <div class="gallery-item" data-category="bathroom-1"
-                    style="background-image: url('assets/34/34_bathroo_small_2.jpg');"></div>
-                <div class="gallery-item" data-category="bathroom-1"
-                    style="background-image: url('assets/34/34_bathroo_small_3.jpg');"></div>
-
-                <!-- Bathroom 2 -->
-                <div class="gallery-item" data-category="bathroom-2"
-                    style="background-image: url('assets/34/34_bathroom_big_1.jpg');"></div>
-                <div class="gallery-item" data-category="bathroom-2"
-                    style="background-image: url('assets/34/34_bathroom_big_2.jpg');"></div>
-                <div class="gallery-item" data-category="bathroom-2"
-                    style="background-image: url('assets/34/34_bathroom_big_3.jpg');"></div>
-
-                <!-- External -->
-                <div class="gallery-item" data-category="external"
-                    style="background-image: url('assets/34/34_external_1.jpg');"></div>
-                <div class="gallery-item" data-category="external"
-                    style="background-image: url('assets/34/34_external_2.jpg');"></div>
-                <div class="gallery-item" data-category="external"
-                    style="background-image: url('assets/34/34_external_3.jpg');"></div>
-            </div>
-            <div id="load-more-container" style="text-align: center; margin-top: 2rem;">
-                <button id="loadMoreBtn" class="btn-secondary">Show More</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox">
-        <span class="close-lightbox">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
-    </div>
-
-    <!-- Location Section -->
-    <section id="location" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>The Location</h2>
-                <p>In the beating heart of Rome.</p>
-            </div>
-            <div class="location-grid">
-                <div class="location-info">
-                    <h3>Via di Monserrato</h3>
-                    <p>Situated on one of Rome's most elegant streets, you are immersed in history. Cobblestone paths,
-                        artisan workshops, and authentic Roman life await right outside your door.</p>
-
-                    <ul>
-                        <li><strong>Campo de' Fiori:</strong> 2 min walk</li>
-                        <li><strong>Piazza Navona:</strong> 5 min walk</li>
-                        <li><strong>Pantheon:</strong> 10 min walk</li>
-                        <li><strong>Trastevere:</strong> 15 min walk</li>
-                    </ul>
-
-                    <div class="location-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.873215917891!2d12.469094075908502!3d41.89549337124233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f604f86d87eeb%3A0xe2a818d6e3fb0e5!2sVia%20di%20Monserrato%2C%2039%2C%2000186%20Roma%20RM!5e0!3m2!1sen!2sit!4v1714500000000!5m2!1sen!2sit"
-                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-                <div class="location-image" style="background-image: url('assets/34/34_external_2.jpg');"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Availability Section -->
-    <section id="availability" class="section alt-bg">
-        <div class="container">
-            <div class="section-header">
-                <h2>Availability</h2>
-                <p>Check our calendar for open dates.</p>
-            </div>
-            <div class="calendar-wrapper">
-                <div class="google-calendar-container">
-                    <iframe
-                        src="https://calendar.google.com/calendar/embed?src=vi0lo5qk1f1rkcaihup7q6pi52jc6lnp%40import.calendar.google.com&ctz=Europe%2FRome&showTitle=0&showPrint=0&showCalendars=0&showTabs=0"
-                        style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
-                    </iframe>
-                </div>
-            </div>
-
-            <!-- Prices and Availability Section -->
-            <div class="description-box" style="margin-top: 3rem; margin-bottom: 0;">
-                <h3>Prices</h3>
-                <p style="text-align: justify;">Prices vary depending on the season, availability, and demand for the selected dates. Rates are dynamically updated throughout the year.</p>
-                <p style="text-align: justify;">For real-time and accurate price, you can check the calendar on Airbnb.</p>
-                <p style="text-align: justify;">Guests who book directly with us may benefit from a special direct booking discount of around 15%, as well as possible reductions for longer stays or early bookings.</p>
-                <p style="text-align: justify; margin-bottom: 2rem;">If you would like to check availability or receive a quote, feel free to contact us directly.</p>
-                <a href="#" target="_blank" class="btn-primary">Check on Airbnb</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h2>Ready to Stay?</h2>
-                    <p>Contact us directly for the best rates and availability.</p>
-                    <ul class="contact-list">
-                        <li><strong>Email:</strong> monserratoapartments@gmail.com</li>
-                        <li><strong>Lucia:</strong> +39 3921287501</li>
-                        <li><strong>Emanuele:</strong> +39 3934659160</li>
-                        <li><strong>Address:</strong> Via di Monserrato 34, 00186 Roma (RM), Italia</li>
-                    </ul>
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Message / Preferred Dates" rows="4" required></textarea>
-                    <button type="submit" class="btn-primary">Send Inquiry</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Monserrato Apartment. All rights reserved.</p>
+        <p>&copy; 2024 Monserrato Suites &mdash; Residenza Antonelli, Via di Monserrato 34, Rome. All rights reserved.</p>
+        <p><a href="index.html">Back to Monserrato Suites home</a></p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
